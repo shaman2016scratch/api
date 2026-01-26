@@ -3,7 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "dependencies": {
-    "node": "^25.4.0"
+    "node": "^25.4.0",
+    "@actions/checkout": "^4.3.0"
   },
   "devDependencies": {}
 }
