@@ -1,1 +1,9 @@
-
+{
+  "name": "shaman2016-api",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "@vercel/node": "^5.0.0"
+  },
+  "devDependencies": {}
+}
