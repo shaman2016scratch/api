@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "name": "ai-scratch",
+  "name": "shaman2016-api",
   "builds": [
     {
-      "src": "*.js",
+      "src": "/index.mjs",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/",
-      "dest": "/index.js"
+      "dest": "/index.mjs"
     },
   ]
 }
