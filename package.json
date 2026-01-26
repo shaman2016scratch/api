@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "dependencies": {
-    "node": "^25.4.0"
+    "node": "^22.22.0"
   },
   "devDependencies": {}
 }
