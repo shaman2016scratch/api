@@ -1,3 +1,8 @@
 import fetch from 'node-fetch';
 
-export default async (req, res) => {}
+export default async (req, res) => {
+  const ouut = {
+    "ok": true,
+    "result": {}
+  }
+}
