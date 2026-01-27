@@ -14,11 +14,11 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/index.mjs"
+      "dest": "/api/index.mjs"
     },
     {
       "src": "/tools/",
-      "dest": "/tools/index.mjs"
+      "dest": "/api/tools/index.mjs"
     }
   ]
 }
