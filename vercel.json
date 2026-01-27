@@ -3,11 +3,11 @@
   "name": "shaman2016-api",
   "builds": [
     {
-      "src": "/index.mjs",
+      "src": "index.mjs",
       "use": "@vercel/node"
     },
     {
-      "src": "/tools/index.mjs",
+      "src": "tools/index.mjs",
       "use": "@vercel/node"
     }
   ],
