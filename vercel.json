@@ -11,6 +11,10 @@
     {
       "src": "/",
       "dest": "/index.mjs"
+    },
+    {
+      "src": "/tools/",
+      "dest": "/tools/index.mjs"
     }
   ]
 }
