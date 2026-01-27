@@ -5,4 +5,5 @@ export default async (req, res) => {
     "ok": true,
     "result": {}
   }
+  res.status(200).json(ouut)
 }
