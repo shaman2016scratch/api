@@ -19,7 +19,7 @@ export default async (req, res) => {
           "main": "1.1.0"
         },
         "pages": {
-          "tbc": "2.1.0",
+          "tbc": "2.2.0",
           "mini-brow": "alpha",
           "search": "alpha"
         }
