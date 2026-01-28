@@ -25,7 +25,7 @@ export default async (req, res) => {
         }
       }
     },
-    "request": req
+    "status": 200
   }
   res.status(200).json(ouut)
 }
