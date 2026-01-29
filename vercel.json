@@ -9,6 +9,14 @@
     {
       "src": "api/tools/index.mjs",
       "use": "@vercel/node"
+    },
+    {
+      "src": "api/tools/tbc/index.mjs",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/tools/tbc/newkey.mjs",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
@@ -19,6 +27,14 @@
     {
       "src": "/tools/",
       "dest": "/api/tools/index.mjs"
+    },
+    {
+      "src": "/tools/tbc/",
+      "dest": "/api/tools/tbc/index.mjs"
+    },
+    {
+      "src": "/tools/tbc/createKey",
+      "dest": "/api/tools/tbc/newkey.mjs"
     }
   ]
 }
