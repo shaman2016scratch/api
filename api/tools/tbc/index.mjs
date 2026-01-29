@@ -7,23 +7,7 @@ export default async (req, res) => {
   const ouut = {
     "ok": true,
     "result": {
-      "pagesCount": 3,
-      "pages": [
-        "tbc.html",
-        "mini-brow.html",
-        "search.html"
-      ],
-      "code": "https://github.com/shaman2016scratch/shaman2016scratch.github.io/tree/main/tools",
-      "version": {
-        "api": {
-          "main": "1.1.0"
-        },
-        "pages": {
-          "tbc": "2.2.0",
-          "mini-brow": "alpha",
-          "search": "alpha"
-        }
-      }
+      "version": "2.2.0"
     },
     "status": 200
   }
