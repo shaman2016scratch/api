@@ -21,6 +21,10 @@
     {
       "src": "api/tools/search/vhod.mjs",
       "use": "@vercel/node"
+    },
+    {
+      "src": "api/tools/search/zapros.mjs",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
@@ -43,6 +47,10 @@
     {
       "src": "/tools/search/vhod/",
       "dest": "/api/tools/search/vhod.mjs"
+    },
+    {
+      "src": "/tools/search/zapros",
+      "dest": "/api/search/zapros.mjs"
     }
   ]
 }
