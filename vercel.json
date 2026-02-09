@@ -19,10 +19,6 @@
       "use": "@vercel/node"
     },
     {
-      "src": "api/tools/search/vhod.mjs",
-      "use": "@vercel/node"
-    },
-    {
       "src": "api/tools/search/zapros.mjs",
       "use": "@vercel/node"
     },
@@ -47,10 +43,6 @@
     {
       "src": "/tools/tbc/createKey/",
       "dest": "/api/tools/tbc/newkey.mjs"
-    },
-    {
-      "src": "/tools/search/vhod/",
-      "dest": "/api/tools/search/vhod.mjs"
     },
     {
       "src": "/tools/search/zapros",
