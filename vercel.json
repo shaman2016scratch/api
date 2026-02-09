@@ -25,6 +25,10 @@
     {
       "src": "api/tools/search/zapros.mjs",
       "use": "@vercel/node"
+    },
+    {
+      "src": "api/getMe.mjs",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
@@ -51,6 +55,14 @@
     {
       "src": "/tools/search/zapros",
       "dest": "/api/search/zapros.mjs"
+    },
+    {
+      "src": "/getMe",
+      "dest": "/api/getMe.mjs"
+    },
+    {
+      "src": "/req",
+      "dest": "/api/getMe.mjs"
     }
   ]
 }
