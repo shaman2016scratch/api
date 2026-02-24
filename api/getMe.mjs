@@ -10,7 +10,10 @@ export default async (req, res) => {
       "user-agent": req.headers['user-agent'],
       "ip": req.headers['x-forwarded-for']?.split(',')[0].trim(),
       "x-forwarded-for": req.headers['x-forwarded-for'],
-      "headers": req.headers
+      "headers": req.headers,
+      "body": req.body,
+      "method": req.method,
+      "site": req.headers["origin"]
     }
   }
   res.status(200).json(ouut)
