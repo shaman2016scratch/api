@@ -25,6 +25,10 @@
     {
       "src": "api/getMe.mjs",
       "use": "@vercel/node"
+    },
+    {
+      "src": "api/dbintg/index.mjs",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
@@ -55,6 +59,10 @@
     {
       "src": "/req",
       "dest": "/api/getMe.mjs"
+    },
+    {
+      "src": "/db/",
+      "dest": "/api/dbintg/index.mjs"
     }
   ]
 }
