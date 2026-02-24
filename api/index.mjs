@@ -8,7 +8,8 @@ export default async (req, res) => {
     "ok": true,
     "result": {
       "description": "SHAMAN2016 API. Api from SHAMAN2016 on Node.js uploaded to Vercel",
-      "licence": "MIT License"
+      "licence": "MIT License",
+      "yourIp": req.headers["real-ip"]
     }
   }
   res.status(200).json(ouut)
