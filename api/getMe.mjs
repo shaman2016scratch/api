@@ -13,7 +13,8 @@ export default async (req, res) => {
       "headers": req.headers,
       "body": req.body,
       "method": req.method,
-      "site": req.headers["origin"]
+      "site": req.headers["origin"],
+      "os": req.headers["platform"]
     }
   }
   res.status(200).json(ouut)
