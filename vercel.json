@@ -29,6 +29,10 @@
     {
       "src": "api/dbintg/index.mjs",
       "use": "@vercel/node"
+    },
+    {
+      "src": "api/scratchen/desc.mjs",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
@@ -63,6 +67,10 @@
     {
       "src": "/db/",
       "dest": "/api/dbintg/index.mjs"
+    },
+    {
+      "src": "/scratchen/description/",
+      "dest": "/api/scratchen/desc.mjs"
     }
   ]
 }
