@@ -6,8 +6,7 @@ export default async (req, res) => {
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   const ouut = {
     "ok": true,
-    "result": `
-Читайте все описание
+    "result": ` Читайте все описание
 Скретчен — рп страна на Скретче, не является реальной, и роли действительны только в пределах рп Скретчена
 —— Монархия ——
 Форма Монархии — выборная
