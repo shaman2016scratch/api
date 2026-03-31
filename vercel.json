@@ -94,7 +94,7 @@
     },
     {
       "src": "/blogs/genCode",
-      "dest": "/api/blogs/getAuthCode.mjs"
+      "dest": "/api/blogs/genAuthCode.mjs"
     }
   ]
 }
