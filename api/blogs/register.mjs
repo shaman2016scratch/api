@@ -17,6 +17,9 @@ export default async (req, res) => {
       'error': 'not confirmed'
     })
   } else {
+    let usersDB = await fetch('https://api-shaman2016.vercel.app/blogs/users')
+    usersDB = await usersDB.json()
+    usersDB.push({})
     res.status(200).json({
       'ok': true,
       'result': 'Registration was successful. Now log in to your account'
