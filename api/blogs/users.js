@@ -11,7 +11,8 @@
     'isAdmin': true,
     'isModer': true,
     'isDeveloper': true,
-    'type': 'public'
+    'type': 'public',
+    'scratch': 'shaman2016'
   }, {
     'name': 'DiamondCat2026',
     'description': '',
@@ -22,6 +23,7 @@
     'isAdmin': false,
     'isModer': true,
     'isDeveloper': false,
-    'type': 'public'
+    'type': 'public',
+    'scratch': 'diamondcat2026-2'
   }
 ]
