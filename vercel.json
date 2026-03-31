@@ -41,6 +41,10 @@
     {
       "src": "api/blogs/users.js",
       "use": "@vercel/static"
+    },
+    {
+      "src": "api/blogs/genAuthCode.mjs",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
@@ -87,6 +91,10 @@
     {
       "src": "/blogs/users",
       "dest": "/api/blogs/users.js"
+    },
+    {
+      "src": "/blogs/genCode",
+      "dest": "/api/blogs/getAuthCode.mjs"
     }
   ]
 }
