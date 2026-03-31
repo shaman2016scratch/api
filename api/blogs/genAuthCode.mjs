@@ -1,8 +1,7 @@
 import fetch from 'node-fetch';
+import cryptoRandomString from 'crypto-random-string';
 
 export default async (req, res) => {
-  const cryptoRandomString = require('crypto-random-string');
-  
   res.setHeader('Access-Control-Allow-Origin', 'https://shaman2016scratch.github.io, localhost:3000');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
