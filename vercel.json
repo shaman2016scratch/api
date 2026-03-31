@@ -33,6 +33,14 @@
     {
       "src": "api/scratchen/desc.mjs",
       "use": "@vercel/node"
+    },
+    {
+      "src": "api/blogs/blogs.json",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "api/blogs/users.json",
+      "use": "@vercel/static"
     }
   ],
   "routes": [
@@ -71,6 +79,14 @@
     {
       "src": "/scratchen/description/",
       "dest": "/api/scratchen/desc.mjs"
+    },
+    {
+      "src": "/blogs/blogs",
+      "dest": "/api/blogs/blogs.json"
+    },
+    {
+      "src": "/blogs/users",
+      "dest": "/api/blogs/users.json"
     }
   ]
 }
