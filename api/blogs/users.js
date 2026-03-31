@@ -20,7 +20,7 @@
     'isBanned': false,
     'isDeleted': false,
     'isAdmin': false,
-    'isModer': false,
+    'isModer': true,
     'isDeveloper': false,
     'type': 'public'
   }
