@@ -35,11 +35,11 @@
       "use": "@vercel/node"
     },
     {
-      "src": "api/blogs/blogs.json",
+      "src": "api/blogs/blogs.js",
       "use": "@vercel/static"
     },
     {
-      "src": "api/blogs/users.json",
+      "src": "api/blogs/users.js",
       "use": "@vercel/static"
     }
   ],
@@ -82,11 +82,11 @@
     },
     {
       "src": "/blogs/blogs",
-      "dest": "/api/blogs/blogs.json"
+      "dest": "/api/blogs/blogs.js"
     },
     {
       "src": "/blogs/users",
-      "dest": "/api/blogs/users.json"
+      "dest": "/api/blogs/users.js"
     }
   ]
 }
