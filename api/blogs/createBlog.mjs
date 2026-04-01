@@ -6,6 +6,8 @@ export default async (req, res) => {
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   res.setHeader('Access-Control-Allow-Credentials', 'true');
 
+  const { name } = req.body
+  
   const owner = 'shaman2016scratch';
   const repo = 'api';
   const path = 'api/blogs/blogs.js';
@@ -13,7 +15,14 @@ export default async (req, res) => {
   const branch = 'main';
   let blogsDB = await fetch('https://api-shaman2016.vercel.app/blogs/blogs')
   blogsDB = await blogsDB.json()
-  blogsDB.push({})
+  blogsDB.push({
+    'name': 'Blogs8787',
+    'description': '',
+    'authors': [],
+    'created': new Date(),
+    'updated': new Date(),
+    'articles': []
+  })
   try {
     const getFileResponse = await fetch(
       `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}?ref=${branch}`,
