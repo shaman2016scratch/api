@@ -51,13 +51,13 @@
       "use": "@vercel/static"
     },
     {
-      "src": "api/blogs/registration.mjs",
+      "src": "api/blogs/register.mjs",
       "use": "@vercel/node"
     },
     {
       "src": "api/blogs/login.mjs",
       "use": "@vercel/node"
-    },
+    }
   ],
   "routes": [
     {
@@ -107,6 +107,18 @@
     {
       "src": "/blogs/genCode",
       "dest": "/api/blogs/genAuthCode.mjs"
+    },
+    {
+      "src": "/blogs/articles",
+      "dest": "/api/blogs/articles.js"
+    },
+    {
+      "src": "/blogs/reg",
+      "dest": "/api/blogs/register.mjs"
+    },
+    {
+      "src": "/blogs/login",
+      "dest": "/api/blogs/login.mjs"
     }
   ]
 }
