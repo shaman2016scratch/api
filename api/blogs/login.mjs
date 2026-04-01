@@ -45,7 +45,49 @@ export default async (req, res) => {
     let usersDB = await fetch('https://api-shaman2016.vercel.app/blogs/users')
     usersDB = await usersDB.json()
     usersDB[id].session = tokenHash
-    try {} catch (error) {
+    try {
+      const getFileResponse = await fetch(
+        `https://api.github.com/repos/${owner}/${repo}/contents/${filePath}?ref=${branch}`,
+        {
+          headers: {
+            'Authorization': `Bearer ${token}`,
+            'Accept': 'application/vnd.github.v3+json'
+          }
+        }
+      );
+
+      const fileData = await getFileResponse.json();
+      const currentSha = fileData.sha;
+      
+      const encodedContent = Buffer.from(usersDB).toString('base64');
+      await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${filePath}`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${token}`,
+          'Accept': 'application/vnd.github.v3+json',
+          'Content-Type': 'application/json'
+        },
+        body: {
+          JSON.stringify({
+            message: `Update User List`,
+            content: encodedContent,
+            sha: currentSha,
+            branch: branch
+          })
+        }
+      })
+      res.status(200).json({
+        ok: true,
+        result: {
+          message: 'Registration was successful. Now log in to your account',
+          myId: usersDB.length
+        },
+        res: {
+          ip: res.headers['x-vercel-ip'],
+          'user-agent': res.headers['user-agent']
+        }
+      })
+    } catch (error) {
       res.status(500).json({
         ok: false,
         error
