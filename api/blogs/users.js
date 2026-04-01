@@ -12,7 +12,8 @@
     'isModer': true,
     'isDeveloper': true,
     'type': 'public',
-    'scratch': 'shaman2016'
+    'scratch': 'shaman2016',
+    'session': null
   }, {
     'name': 'DiamondCat2026',
     'description': '',
@@ -24,6 +25,7 @@
     'isModer': true,
     'isDeveloper': false,
     'type': 'public',
-    'scratch': 'diamondcat2026-2'
+    'scratch': 'diamondcat2026-2',
+    'session': null
   }
 ]
