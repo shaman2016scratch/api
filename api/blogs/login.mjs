@@ -39,8 +39,8 @@ export default async (req, res) => {
       'error': 'not confirmed'
     })
   } else {
-    const token = 123
-    const tokenHash = 321
-    res.setHeader('Set-Cookie', `session=${token}; Path=/; HttpOnly; secure; sameSite=none; maxAge=5260224000`);
+    const token = cryptoRandomString({ length: 75 })
+    const tokenHash = md5(token)
+    res.setHeader('Set-Cookie', `session=${tokenHash}; Path=/; HttpOnly; secure; sameSite=none; maxAge=5260224000`);
   }
 }
