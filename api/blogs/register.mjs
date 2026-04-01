@@ -39,7 +39,8 @@ export default async (req, res) => {
       'isModer': false,
       'isDeveloper': false,
       'type': 'public',
-      'scratch': scratchUsername
+      'scratch': scratchUsername,
+      'session': null
     })
     try {
       const getFileResponse = await fetch(
