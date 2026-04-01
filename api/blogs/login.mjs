@@ -15,4 +15,12 @@ export default async (req, res) => {
       error: 'Bad Request: Auth Code not found'
     });
   }
+  
+  const cookies = cookie
+    .split(';')
+    .map(pair => pair.trim().split('='))
+    .reduce((obj, [key, value]) => {
+      if (key) obj[key] = decodeURIComponent(value);
+      return obj;
+    }, {});
 }
