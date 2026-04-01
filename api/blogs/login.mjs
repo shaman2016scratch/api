@@ -38,6 +38,8 @@ export default async (req, res) => {
       'error': 'not confirmed'
     })
   } else {
-    // dev
+    const token = 123
+    const tokenHash = 321
+    res.setHeader('Set-Cookie', `session=${token}; Path=/; HttpOnly; secure; sameSite=none; maxAge=5260224000`);
   }
 }
