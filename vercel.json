@@ -45,7 +45,19 @@
     {
       "src": "api/blogs/genAuthCode.mjs",
       "use": "@vercel/node"
-    }
+    },
+    {
+      "src": "api/blogs/articles.js",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "api/blogs/registration.mjs",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "api/blogs/login.mjs",
+      "use": "@vercel/node"
+    },
   ],
   "routes": [
     {
