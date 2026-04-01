@@ -23,4 +23,21 @@ export default async (req, res) => {
       if (key) obj[key] = decodeURIComponent(value);
       return obj;
     }, {});
+
+  const { scratchUsername, name } = req.body
+  let comments = await fetch('https://api.scratch.mit.edu/users/shaman2016scratch/projects/1297964685/comments?limit=20')
+  comments = await comments.json()
+  const isVerified = comments.some(
+    (c) =>
+      c.author.username.toLowerCase() === scratchUsername.toLowerCase() &&
+      c.content.includes(decoded.code)
+  );
+  if (!isVerified) {
+    res.status(400).json({
+      'ok': false,
+      'error': 'not confirmed'
+    })
+  } else {
+    // dev
+  }
 }
