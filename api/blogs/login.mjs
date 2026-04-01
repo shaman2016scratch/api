@@ -1,5 +1,6 @@
 import { Buffer } from 'buffer';
 import cryptoRandomString from 'crypto-random-string';
+import { md5 } from 'js-md5';
 
 export default async (req, res) => {
   res.setHeader('Access-Control-Allow-Origin', 'https://shaman2016scratch.github.io, localhost:3000');
