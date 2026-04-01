@@ -42,5 +42,11 @@ export default async (req, res) => {
     const token = cryptoRandomString({ length: 75 })
     const tokenHash = md5(token)
     res.setHeader('Set-Cookie', `session=${tokenHash}; Path=/; HttpOnly; secure; sameSite=none; maxAge=5260224000`);
+    try {} catch (error) {
+      res.status(500).json({
+        ok: false,
+        error
+      })
+    }
   }
 }
