@@ -6,4 +6,13 @@ export default async (req, res) => {
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   res.setHeader('Access-Control-Allow-Credentials', 'true');
+
+  const { cookie } = req.headers
+
+  if (!cookie) {
+    res.status(400).json({
+      ok: false,
+      error: 'Bad Request: Auth Code not found'
+    });
+  }
 }
