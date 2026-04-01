@@ -8,6 +8,12 @@ export default async (req, res) => {
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   res.setHeader('Access-Control-Allow-Credentials', 'true');
 
+  const owner = 'shaman2016scratch';
+  const repo = 'api';
+  const path = 'api/blogs/users.js';
+  const token = process.env.GITHUB_TOKEN;
+  const branch = 'main';
+
   const { cookie } = req.headers
 
   if (!cookie) {
