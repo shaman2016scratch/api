@@ -72,12 +72,26 @@ export default async (req, res) => {
         }
       })
       res.status(200).json({
-        'ok': true,
-        'result': 'Registration was successful. Now log in to your account'
+        ok: true,
+        result: {
+          message: 'Registration was successful. Now log in to your account',
+          myId: usersDB.length
+        },
+        res: {
+          ip: res.headers['x-vercel-ip'],
+          'user-agent': res.headers['user-agent']
+        }
       })
     } catch (error) {
       console.error(error)
-      res.status(500).json(error)
+      res.status(500).json({
+        ok: false,
+        error,
+        res: {
+          ip: res.headers['x-vercel-ip'],
+          'user-agent': res.headers['user-agent']
+        }
+      })
     }
   }
 }
