@@ -57,6 +57,10 @@
     {
       "src": "api/blogs/login.mjs",
       "use": "@vercel/node"
+    },
+    {
+      "src": "api/blogs/recomendations.js",
+      "use": "vercel/static"
     }
   ],
   "routes": [
@@ -119,6 +123,10 @@
     {
       "src": "/blogs/login",
       "dest": "/api/blogs/login.mjs"
+    },
+    {
+      "src": "/blogs/recomendations",
+      "dest": "/api/blogs/recomendations.js"
     }
   ]
 }
