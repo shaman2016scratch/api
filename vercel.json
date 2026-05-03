@@ -60,7 +60,7 @@
     },
     {
       "src": "api/blogs/recomendations.js",
-      "use": "vercel/static"
+      "use": "@vercel/static"
     }
   ],
   "routes": [
