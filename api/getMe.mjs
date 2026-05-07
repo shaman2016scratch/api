@@ -5,16 +5,16 @@ export default async (req, res) => {
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIOS, POST, PUT, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
   const ouut = {
-    "ok": true,
-    "result": {
+    ok: true,
+    result: {
       "user-agent": req.headers['user-agent'],
-      "ip": req.headers['x-forwarded-for']?.split(',')[0].trim(),
+      ip: req.headers['x-forwarded-for']?.split(',')[0].trim(),
       "x-forwarded-for": req.headers['x-forwarded-for'],
-      "headers": req.headers,
-      "body": req.body,
-      "method": req.method,
-      "site": req.headers["origin"],
-      "os": req.headers["platform"]
+      headers: req.headers,
+      body: req.body,
+      method: req.method,
+      site: req.headers["origin"],
+      os: req.headers["platform"]
     }
   }
   res.status(200).json(ouut)
