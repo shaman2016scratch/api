@@ -118,6 +118,12 @@ GalertFood (id6)<br>
 Los-Kargan Studio (id7)<br>
 Drix Fundation (id8)<br>
 Free sosirsOS Apps Foundation (id9)<br>
+Nunka Org. (id10)<br>
+Bortlin Org (id11)<br>
+Fgunal (id12)<br>
+Sial Foundation (id13, контролируется Fgunal)<br>
+Moreslav Scratchen Organization (id14)<br>
+MSO Studio (id15, контролируется Moreslav Scratchen Organization)
 —— Революции ——<br>
 1. Переход в княжество. Призедент заменяется Князем, и появляется младший князь, SHAMAN2016 стал Князем (Монархом) Ильхамом Первым — 25.01.2026-02.02.2026<br>
 —— Населения Городов (рейтинг) ——<br>
