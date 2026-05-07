@@ -93,6 +93,10 @@
       "dest": "/api/getMe.mjs"
     },
     {
+      "src": "/getReq",
+      "dest": "/api/getMe.mjs"
+    },
+    {
       "src": "/db/",
       "dest": "/api/dbintg/index.mjs"
     },
