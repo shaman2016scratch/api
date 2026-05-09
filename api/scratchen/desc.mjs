@@ -124,6 +124,7 @@ Fgunal (id12)<br>
 Sial Foundation (id13, контролируется Fgunal)<br>
 Moreslav Scratchen Organization (id14)<br>
 MSO Studio (id15, контролируется Moreslav Scratchen Organization)
+Os.Os Studio (id16)
 —— Революции ——<br>
 1. Переход в княжество. Призедент заменяется Князем, и появляется младший князь, SHAMAN2016 стал Князем (Монархом) Ильхамом Первым — 25.01.2026-02.02.2026<br>
 —— Населения Городов (рейтинг) ——<br>
