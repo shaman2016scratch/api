@@ -45,7 +45,7 @@ export default async (req, res) => {
 Председатель ВСС: @SHAMAN2016<br>
 Министр мероприятий ОКС: @SHAMAN2016<br>
 Министр обороны ОКС: @DiamondCat2026<br>
-Министр Поли. ОКС: @DiamondCat2026<br>
+Министр Поли. ОКС (МВДС): @DiamondCat2026<br>
 Министр связи ОКС: @SHAMAN2016<br>
 Министр иностранных дел ОКС: @DiamondCat2026<br>
 Министр образования ОКС: @SHAMAN2016<br>
