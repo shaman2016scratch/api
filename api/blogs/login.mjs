@@ -85,8 +85,8 @@ export default async (req, res) => {
       res.status(200).json({
         ok: true,
         result: {
-          message: 'Registration was successful. Now log in to your account',
-          myId: usersDB.length
+          message: 'Login was successful.',
+          token: usersDB[id].session
         },
         res: {
           ip: res.headers['x-vercel-ip'],
