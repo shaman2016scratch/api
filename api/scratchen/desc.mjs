@@ -90,20 +90,23 @@ SHAMAN2016<br>
 4. 1 Сентября — 4 сентября<br>
 5. 1 декабря — 4 декабря<br>
 Компании:<br>
-Интерграм (id1)<br>
+Интерграм (id1, Интерграм Лаб и Интерграм Техно имеют такой же ID)<br>
 Scratchen Studio (id2)<br>
 Ки (id3)<br>
 Карандашик! (id4)<br>
-GalertFood (id5)<br>
+GalertFood (id5, с 07.05.2026 контролируется Интерграмом, с 15.05.2026 имеет второе название - Интерграм еда.)<br>
 Drix Fundation (id6)<br>
 Free sosirsOS Apps Foundation (id7)<br>
 Nunka Org. (id8)<br>
 Bortlin Org (id9)<br>
-Fgunal (id10)<br>
+Fgunal (id10, контролируется Bortlin Org)<br>
 Sial Foundation (id11, контролируется Fgunal)<br>
 Moreslav Scratchen Organization (id12)<br>
 MSO Studio (id13, контролируется Moreslav Scratchen Organization)<br>
 Os.Os Studio (id14)<br>
+Al-Kargan (id15)
+Intergram Kino (id16, контролируется Интерграмом)
+Intergram Kino Studio (id17, контролируется Intergram Kino)
 —— Революции ——<br>
 1. Переход в княжество. Призедент заменяется Князем, и появляется младший князь, SHAMAN2016 стал Князем (Монархом) Ильхамом Первым — 25.01.2026-02.02.2026<br>
 —— Населения Городов (рейтинг) ——<br>
