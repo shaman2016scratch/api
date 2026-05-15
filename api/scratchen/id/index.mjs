@@ -8,7 +8,10 @@ export default async (req, res) => {
   res.status(200).json({
     ok: true,
     result: {
-      users
+      users,
+      paths: {
+        getDataFromKey: '/getData'
+      }
     }
   })
 }
