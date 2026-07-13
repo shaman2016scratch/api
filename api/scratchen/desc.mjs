@@ -96,7 +96,7 @@ Scratchen Studio (id2)<br>
 Ки (id3)<br>
 Карандашик! (id4)<br>
 GalertFood (id5, с 07.05.2026 контролируется Интерграмом, с 15.05.2026 имеет второе название - Интерграм еда.)<br>
-Drix Fundation (id6)<br>
+Drix Fundation (id6, контролируется Интерграмом)<br>
 Free sosirsOS Apps Foundation (id7)<br>
 Nunka Org. (id8)<br>
 Bortlin Org (id9)<br>
@@ -109,6 +109,11 @@ Al-Kargan (id15)
 Intergram Kino (id16, контролируется Интерграмом)
 Intergram Kino Studio (id17, контролируется Intergram Kino)
 DiamondCat Group (id18)
+MoreCorp (id19)
+MoreCorp Film (id20, контролируется MoreCorp)
+Scratcheslav Org. (id21)
+Gansked Studios (id22)
+Tureng Studios (id23)
 —— Революции ——<br>
 1. Переход в княжество. Призедент заменяется Князем, и появляется младший князь, SHAMAN2016 стал Князем (Монархом) Ильхамом Первым — 25.01.2026-02.02.2026<br>
 —— Населения Городов (рейтинг) ——<br>
