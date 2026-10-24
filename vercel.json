@@ -3,35 +3,35 @@
   "name": "shaman2016-api",
   "builds": [
     {
-      "src": "api/index.mjs",
+      "src": "api/index.js",
       "use": "@vercel/node"
     },
     {
-      "src": "api/tools/index.mjs",
+      "src": "api/tools/index.js",
       "use": "@vercel/node"
     },
     {
-      "src": "api/tools/tbc/index.mjs",
+      "src": "api/tools/tbc/index.js",
       "use": "@vercel/node"
     },
     {
-      "src": "api/tools/tbc/newkey.mjs",
+      "src": "api/tools/tbc/newkey.js",
       "use": "@vercel/node"
     },
     {
-      "src": "api/tools/search/zapros.mjs",
+      "src": "api/tools/search/zapros.js",
       "use": "@vercel/node"
     },
     {
-      "src": "api/getMe.mjs",
+      "src": "api/getMe.js",
       "use": "@vercel/node"
     },
     {
-      "src": "api/dbintg/index.mjs",
+      "src": "api/dbintg/index.js",
       "use": "@vercel/node"
     },
     {
-      "src": "api/scratchen/desc.mjs",
+      "src": "api/scratchen/desc.js",
       "use": "@vercel/node"
     },
     {
@@ -43,7 +43,7 @@
       "use": "@vercel/static"
     },
     {
-      "src": "api/blogs/genAuthCode.mjs",
+      "src": "api/blogs/genAuthCode.js",
       "use": "@vercel/node"
     },
     {
@@ -51,11 +51,11 @@
       "use": "@vercel/static"
     },
     {
-      "src": "api/blogs/register.mjs",
+      "src": "api/blogs/register.js",
       "use": "@vercel/node"
     },
     {
-      "src": "api/blogs/login.mjs",
+      "src": "api/blogs/login.js",
       "use": "@vercel/node"
     },
     {
@@ -66,43 +66,43 @@
   "routes": [
     {
       "src": "/",
-      "dest": "/api/index.mjs"
+      "dest": "/api/index.js"
     },
     {
       "src": "/tools/",
-      "dest": "/api/tools/index.mjs"
+      "dest": "/api/tools/index.js"
     },
     {
       "src": "/tools/tbc/",
-      "dest": "/api/tools/tbc/index.mjs"
+      "dest": "/api/tools/tbc/index.js"
     },
     {
       "src": "/tools/tbc/createKey/",
-      "dest": "/api/tools/tbc/newkey.mjs"
+      "dest": "/api/tools/tbc/newkey.js"
     },
     {
       "src": "/tools/search/zapros",
-      "dest": "/api/search/zapros.mjs"
+      "dest": "/api/search/zapros.js"
     },
     {
       "src": "/getMe",
-      "dest": "/api/getMe.mjs"
+      "dest": "/api/getMe.js"
     },
     {
       "src": "/req",
-      "dest": "/api/getMe.mjs"
+      "dest": "/api/getMe.js"
     },
     {
       "src": "/getReq",
-      "dest": "/api/getMe.mjs"
+      "dest": "/api/getMe.js"
     },
     {
       "src": "/db/",
-      "dest": "/api/dbintg/index.mjs"
+      "dest": "/api/dbintg/index.js"
     },
     {
       "src": "/scratchen/description/",
-      "dest": "/api/scratchen/desc.mjs"
+      "dest": "/api/scratchen/desc.js"
     },
     {
       "src": "/blogs/blogs",
@@ -114,7 +114,7 @@
     },
     {
       "src": "/blogs/genCode",
-      "dest": "/api/blogs/genAuthCode.mjs"
+      "dest": "/api/blogs/genAuthCode.js"
     },
     {
       "src": "/blogs/articles",
@@ -122,11 +122,11 @@
     },
     {
       "src": "/blogs/reg",
-      "dest": "/api/blogs/register.mjs"
+      "dest": "/api/blogs/register.js"
     },
     {
       "src": "/blogs/login",
-      "dest": "/api/blogs/login.mjs"
+      "dest": "/api/blogs/login.js"
     },
     {
       "src": "/blogs/recomendations",
